@@ -43,6 +43,7 @@ moreDropdownItems.forEach(item => {
   const TicketBox = document.querySelector('.modal-ticket')
   BuyBtns.forEach(BuyBtn => {
     BuyBtn.addEventListener('click', ()=>{
+       ModalTicket.classList.remove('close');
         ModalTicket.classList.add('show-js');
     })
   })
