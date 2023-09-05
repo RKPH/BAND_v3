@@ -389,7 +389,7 @@ modal-ticket
 .show-js {
     display: block !important;
 }
-.close {
+.closed-js {
     display: none I !important;
 }
 @media only screen and (max-width: 600px) {
