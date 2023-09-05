@@ -390,7 +390,7 @@ modal-ticket
     display: block !important;
 }
 .closed-js {
-    display: none I !important;
+    display: none  !important;
 }
 @media only screen and (max-width: 600px) {
     .col-12 {
