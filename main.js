@@ -51,12 +51,12 @@ moreDropdownItems.forEach(item => {
   closeBtns.forEach(closeBtn=>{
     closeBtn.addEventListener('click',()=> {
         ModalTicket.classList.remove('show-js');
-        ModalTicket.classList.add('close');
+        ModalTicket.classList.add('closed-js');
     })
   })
   ModalTicket.addEventListener('click',()=>{
     ModalTicket.classList.remove('show-js');
-    ModalTicket.classList.add('close');
+     ModalTicket.classList.add('closed-js');
   })
   TicketBox.addEventListener('click',(event)=>{
     event.stopPropagation();
